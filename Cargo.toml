@@ -1,0 +1,12 @@
+# https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package]
+name = "daggerstare"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "^4.0", features = ["derive"] }
+notify = "^5.0"
+notify-debouncer-mini = "^0.2"
+crossbeam-channel = "^0.5"
